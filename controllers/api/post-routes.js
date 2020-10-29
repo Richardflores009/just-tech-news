@@ -81,7 +81,7 @@ router.post('/', (req, res) => {
   });
 });
 
-// !! ask about wtf is going on here
+
 router.put('/upvote', (req, res) => {
   // make sure the session exists first
   if (req.session) {
